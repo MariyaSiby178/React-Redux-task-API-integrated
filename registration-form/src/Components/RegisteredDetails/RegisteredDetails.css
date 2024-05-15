@@ -1,0 +1,45 @@
+.registered-details {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url('../Assets/bubbles.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.registered-details .card {
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgb(11, 103, 131, 0.4),
+  0 6px 20px 0 rgb(11, 103, 131, 0.19);
+  background-color: transparent;
+  width: 65%;
+}
+.registered-details table {
+  width: 250px;
+}
+.registered-details .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(11, 103, 131);
+  color: antiquewhite;
+  padding-block: 10px;
+  border-radius: 10px;
+  margin: 25px;
+}
+.edit_icon, .delete_icon {
+  /* color: #dc3545; */
+  font-size: 20px;
+  cursor: pointer;
+  transform: scale(1);
+  /* Transition duration */
+  transition: transform 0.3s ease;
+}
+.edit_icon:hover,
+.delete_icon:hover {
+  transform: scale(1.5);
+  /*  transition: all 0.3s linear; */
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
